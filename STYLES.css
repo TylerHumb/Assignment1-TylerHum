@@ -1,0 +1,10 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap" rel="stylesheet">
+<style media="screen">
+ p {font-family:Roboto Slab;color: red }
+ body {background-color: aqua;}
+
+ p {
+   margin: 10px 200px 10px;
+ }
