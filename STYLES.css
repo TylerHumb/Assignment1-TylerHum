@@ -1,6 +1,9 @@
- p {
+ p,h3{
    margin: 10px 200px 10px;
+   text-align:center;
  }
- pre {
+ pre,ul {
    margin: 10px 200px 10px;
- }
+ <h3><b></b></h3>
+  <p></p>
+ <br>
