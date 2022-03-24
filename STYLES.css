@@ -1,9 +1,17 @@
- p,h3{
+ p {
    margin: 10px 200px 10px;
    text-align:center;
  }
  pre,ul {
    margin: 10px 200px 10px;
+}
+h3,h4 {
+     margin: 10px 200px 10px;
+     text-align:center;
+     text-decoration: underline;
+     font-weight: bold;
+   }
+
  <h3><b></b></h3>
   <p></p>
  <br>
