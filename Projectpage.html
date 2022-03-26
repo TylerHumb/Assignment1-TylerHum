@@ -5,29 +5,38 @@
     <title></title>
     <link rel="stylesheet" href="STYLES.css">
     <link rel="icon" type="favicon" href="Images/sal.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
   </head>
-<div class="">
-  <body bgcolor="greenyellow">
+<div class="header">
+  <body bgcolor="DeepSkyBlue">
    <p style="text-align:center;">hello everyone welcome to my website! be sure to check out
     <a href="https://en.wikipedia.org/wiki/Trollface">My instagram</a> and
-    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> my youtube page</a></p>
+    <a href="https://www.youtube.com/watch?v=829pvBHyG6I"> my youtube page</a></p>
   <hr>
   <h1 style="text-align:center;">Welcome to Tylers Website!</h1>
-  <hr>
-  <pre style="text-align:center;"> <!-- The below paragraphs are line broken(?) for readability -->
-   <a href="Homepage.html">Back to homepage</a>  <a href="Interests.html">My interest in IT</a>  <a href="Job.html">My ideal job</a>  <a href="Profile.html">Personal profile</a>   </pre>
-  <hr>
+  <div class="headlist">
+    <ul style="text-align:center;">
+      <li><a href="Homepage.html">Homepage</a></li>
+      <li><a href="Interests.html">My interest in IT</a></li>
+      <li><a href="Job.html">My ideal job</a>  <a href="Profile.html">Personal profile</a></li>
+      <li><a href="Projectpage.html">The Big Project</a> </li>
+    </ul>
+  </div>
 </div>
+<br>
+<div class="para">
  <h2 style="text-align:center;"><b>Project idea</b></h1>
- <img src="Images/Tracker.PNG" alt="mockup" height="700px" width="auto" style="float:left";>
   <h3>Overview</h3>
-   <p>My idea is an app that is designed to track the amount of standard drinks present inside your
-     body at any given time, this will be achieved by having the user input the drink the standards are
-     added to a total for the night. This would help people track the amount of alcohol in their body at any
-     given time and be more conscious about their drinking. The product could also be adapted to support smart
-     watches for convenience so people don't have to open their phone every time they go for a drink</p>
+   <p>My idea is an app that is designed to track the amount of standard drinks present inside your body at any given time,
+     this will be achieved by having the user input the drink the standards are added to a total for the night. This would help
+     people track the amount of alcohol in their body at any given time and be more conscious about their drinking. The product i
+     designed to be used with your smartwatch for even more convenience, allowing users to simply tap a single button on their watch to
+     view their standards and even repeat the last drink they just had</p>
+</div>
   <br>
-
+<div class="para">
    <h3>Motivation</h3>
     <p>In 2019 a whopping 82% of australians reported that they consume alcohol, therefore in australia alone there are
      21 million possible users for my app in australia alone. Yearly 144000 australians are hospitalised for alcohol abuse,
@@ -35,9 +44,11 @@
      of alcohol the amount that they are drinking and hopefully be more conscious of their drinking. And those figures are from
      Australia only, worldwide roughly 2 billion people drink at least once a year so the global market is quite large also
      (although some efforts in translation would be required to ensure total compatibility)</p>
-  <br>
-
+</div>
+<br>
+<div class="para">
   <h3>Description</h3>
+  <img src="Images/Tracker.PNG" alt="mockup" height="500px" width="auto" style="float:right";>
    <h4>Base idea</h4>
     <p>The app is designed to keep track of the amount of standard drinks present inside your body
       at any times, to achieve this the user will be required to input the drinks that they are drinking
@@ -45,17 +56,19 @@
       The app is designed to be very simple due to the projected userbase being drunk people who obviously wouldn't
       be able to comprehend a complex ui <br> <b>NOTE:</b> this app is purely made to give you a rough idea of how many standard
       drinks are in your body and NOT meant to be used as a guide to see whether you can drive or not</p>
-    <br>
+<br>
    <h4>Design/ base features</h4>
     <p>The app is planned to have a drink searcher on the top half of the screen with a big cup with the amount of
       standards there are <b>ESTIMATED</b> to be in your body on the bottom of the screen. The app is designed to not require
       any scrolling to see all of the information as it is expected that the user will be drinking so requiring scrolling may
       complicate the process a bit for someone who is intoxicated. The user will input the volume of the drink they are drinking
-      whether it is a pot schooner or shot (or whatever else people refer to their drink sizes as), to help the app give an accurate reading. <br>
-     See image left for a very rough drawing of a UI for this app that i made in photoshop (Extremely subject to change).</p>
+      whether it is a pot schooner or shot (or whatever else people refer to their drink sizes as), to help the app give an accurate reading.
+      To further increase the accuracy of the results, the user will have the option to make a profile for themselves detailing their,
+      height weight and sex to allow the app to give out an estimated BAC <br>
+     See image Right for a very rough drawing of a UI for this app that i made in photoshop (Extremely subject to change).</p>
+ <br>
    <h4>Planned Quality of life features</h4>
     <ul>
-     <li>Planned Quality of life features</li>
      <li>users will be able to add drinks that they drink frequently to their favourites list for an even more efficient process, along with a button that automatically puts in the most recent drink.</li>
      <li>An undo feature to remove drinks that may have mistakenly been inputted, along with a button to completely clear the drink count. Both with disclaimers to ensure the user pressed them intentionally as they are likely slightly intoxicated.</li>
      <li>a filter function to help users sort drinks by type (wine spirits lager etc.) to reduce search times and make it simpler for the user (very important in this situation to keep it simple)</li>
@@ -65,25 +78,33 @@
      <li>Possible support for apple and other smartwatches for added convenience</li>
      <li>Dark mode option</li>
     </ul>
+</div>
+ <br>
+<div class="para">
   <h3>Tools and Technologies </h3>
    <p>In order to make this app I would need a mobile development tool in order to program the app. Software
      such as phonegap could fulfil this need for free, I would also need to sign up to a repository called Xcode
      to get my app published on the app store. As for hardware the only thing I would need is a computer to write
      the program on a phone to test the program on. I would also need another sort of software if I plan to make a
      version of the app for smartwatches or other platforms for even more customer convenience.</p>
+</div>
   <br>
-
+<div class="para">
   <h3>Skills Required</h3>
    <p>In order to make this app I would need to gain experience in mobile development software. I would also need to
      educate myself in ways to publish the app to the app/play store. Research would also be required to find out the maths
      behind alcohol percentage and volume in order to find out the amount of standards for the custom drink feature.  Thanks
      to the internet this information is rather easy to find meaning that it is rather feasible. No special hardware would be
      required for this application.</p>
+</div>
   <br>
-
+<div class="para">
   <h3>Outcome</h3>
    <p>With this app i hope to aid at least some people in their efforts to drink more responsibly and be more aware of the amount
      of drinks their consuming.although i know i won't even be able to make a dent in the global statistics it would be considered
      a success if i am able to even prevent 1 person from being hospitalised. I personally will likely be using this app if it ever
      gets made for when i go out drinking in order to help me pace myself more whilst drinking.</p>
+</div>
   <br>
+ </body>
+</html>

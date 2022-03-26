@@ -1,8 +1,13 @@
+body{
+  font-family: 'Rubik', sans-serif;
+  font-size: 150%
+}
  p {
    margin: 10px 200px 10px;
    text-align:center;
+   font-size: 25px
  }
- pre,ul {
+ pre, {
    margin: 10px 200px 10px;
 }
 h3,h4 {
@@ -10,4 +15,34 @@ h3,h4 {
      text-align:center;
      text-decoration: underline;
      font-weight: bold;
+}
+.header{
+  border-style: double;
+  background-color:rgb(105, 135, 195);
+  border: 2px solid CornflowerBlue;
+  position: sticky;
+  top: 0;
+}
+.para {
+  border-style: double;
+  background-color:CornflowerBlue;
+  border-radius: 50px;
+  border: 15px solid DodgerBlue;
+}
+.headlist li{
+ display:inline-block;
+}
+.headlist a  {
+   border-style: double;
+   background-color:LightSkyBlue;
+   border: 2px solid RoyalBlue;
+   margin: 20px;
+   padding-top:15px;
+   padding-bottom:15px;
+   padding-left:30px;
+   padding-right: 30px;
+   border-radius: 20px;
+}
+h1{
+  font-size: 30px;
 }
